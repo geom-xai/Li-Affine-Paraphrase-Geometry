@@ -56,3 +56,46 @@ Install via:
 
 ```bash
 pip install -r requirements.txt
+
+---
+
+## 📊 Main Results
+
+### Classification Performance (PIT-2015, Dev Set)
+
+| Model | ROC-AUC |
+|-------|---------|
+| SBERT Baseline (Cosine) | 0.8405 |
+| Affine Lie Model (Hybrid Score) | 0.7713 |
+
+Linear Transparency = 91.77%
+
+---
+
+### Geometric Invariants (Optimal Configuration)
+
+| Descriptor | Value |
+|------------|--------|
+| Structural Rotation θ | 27.84° |
+| Mean Individual θ | 44.16° |
+| Deformation Index (Def) | 0.00025 |
+| det(A) | -0.836 |
+| Shift Norm ‖t‖₂ | 0.3840 |
+
+---
+
+### Key Findings
+
+- Paraphrasing is locally near-isometric (Def → 0)
+- Stable geometric rotation constant (~28°)
+- Presence of semantic chirality (det(A) < 0)
+- Global operator generalizes across domains
+
+---
+
+## 📬 Contact
+
+For academic collaboration and questions:
+
+**Olexander Mazurets**  
+📧 mazuretso@khmnu.edu.ua
