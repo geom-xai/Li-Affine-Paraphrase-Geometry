@@ -97,5 +97,6 @@ Linear Transparency = 91.77%
 
 For academic collaboration and questions:
 
-**Olexander Mazurets**  
+**Olexander Mazurets**
+Khmelnytskyi National University  
 📧 mazuretso@khmnu.edu.ua
